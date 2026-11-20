@@ -1,4 +1,7 @@
 # ChatGuard — Real-Time Chat Moderation
+## Trained models
+
+[Download trained model files](https://drive.google.com/file/d/1-FxBENX8aNY7OuSwGbwEQcohbJdyx2W4/view?usp=sharing)
 
 SWE015, Use Case 4. Ahmet Cihan Aycan, student ID 220911804.
 
