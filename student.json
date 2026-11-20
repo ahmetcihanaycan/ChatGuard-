@@ -3,7 +3,7 @@
   "student_id": "220911804",
   "course": "SWE015",
   "use_case": "4 — Real-Time Chat Moderation",
-  "repository_url": "",
+  "repository_url": "https://github.com/ahmetcihanaycan/chatguard-swe015",
   "video_url": "https://youtu.be/Axn-deuQpC0",
   "weights_url": "https://drive.google.com/file/d/1-FxBENX8aNY7OuSwGbwEQcohbJdyx2W4/view?usp=sharing"
 }
