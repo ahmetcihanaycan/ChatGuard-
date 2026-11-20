@@ -1,0 +1,30 @@
+{
+  "train_text.txt": {
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/main/datasets/offensive/train_text.txt",
+    "sha256": "78a7a32e38b10af7d8970b008bf17f661c8d0a90dad145fa0fa6a944669650db"
+  },
+  "train_labels.txt": {
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/main/datasets/offensive/train_labels.txt",
+    "sha256": "c0b7d6ebdaa4ebcf6fc557ef1e775d92eda160218a0e3b1dd48eb8234dc892a6"
+  },
+  "val_text.txt": {
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/main/datasets/offensive/val_text.txt",
+    "sha256": "816f36d180c35f15a5104838cb73856a0bef42043482fe738f3481b06242a55c"
+  },
+  "val_labels.txt": {
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/main/datasets/offensive/val_labels.txt",
+    "sha256": "ed2deb776bd1c52fb8221fadd3360e32d9dfe46842d78053528126e46363a258"
+  },
+  "test_text.txt": {
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/main/datasets/offensive/test_text.txt",
+    "sha256": "25b08c3333c26190f1023961c4508ec9aab24d4722b1a3ea7a6040724c120547"
+  },
+  "test_labels.txt": {
+    "url": "https://raw.githubusercontent.com/cardiffnlp/tweeteval/main/datasets/offensive/test_labels.txt",
+    "sha256": "41d05a7aa0b01f5dafab21b95adb4f979cb4226c046ff315702774d10dac1605"
+  },
+  "model": {
+    "id": "google/bert_uncased_L-2_H-128_A-2",
+    "revision": "30b0a37ccaaa32f332884b96992754e246e48c5f"
+  }
+}

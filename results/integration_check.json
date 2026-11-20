@@ -1,0 +1,29 @@
+{
+  "quantized_linear_layers": 14,
+  "live_predictions": {
+    "Thanks for helping our team!": {
+      "TF-IDF + Logistic Regression": 0.17522045561096358,
+      "Word2Vec + Neural Network": 0.021106552332639694,
+      "BERT FP32": 0.10888875275850296,
+      "BERT INT8": 0.10887700319290161
+    },
+    "You are a stupid idiot.": {
+      "TF-IDF + Logistic Regression": 0.9703461631273052,
+      "Word2Vec + Neural Network": 0.9692506194114685,
+      "BERT FP32": 0.9229774475097656,
+      "BERT INT8": 0.9232324361801147
+    },
+    "You are a stup1d idiooot.": {
+      "TF-IDF + Logistic Regression": 0.8946076516317194,
+      "Word2Vec + Neural Network": 0.917000949382782,
+      "BERT FP32": 0.9194720983505249,
+      "BERT INT8": 0.9201850891113281
+    },
+    "": {
+      "TF-IDF + Logistic Regression": 0.41867563656398715,
+      "Word2Vec + Neural Network": 0.41171228885650635,
+      "BERT FP32": 0.15395988523960114,
+      "BERT INT8": 0.15425238013267517
+    }
+  }
+}

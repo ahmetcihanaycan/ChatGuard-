@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.cache/
+artifacts/
+pretrained/
+data/
+*.zip

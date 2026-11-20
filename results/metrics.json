@@ -1,0 +1,154 @@
+{
+  "hardware": "12th Gen Intel(R) Core(TM) i7-12700H",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch_threads": 2,
+  "device": "CPU",
+  "batch_size": 1,
+  "warmup_runs": 20,
+  "latency_scope": "normalization + features/tokenizer + model + softmax; excludes UI/network",
+  "size_definition": "serialized inference files, decimal MB; includes vocabulary/tokenizer; excludes runtime libraries",
+  "test_n": 860,
+  "models": [
+    {
+      "model": "TF-IDF + Logistic Regression",
+      "macro_f1": 0.7249566646837962,
+      "accuracy": 0.7674418604651163,
+      "size_mb": 1.409748,
+      "latency_mean_ms": 0.6279705004999414,
+      "latency_p95_ms": 0.7836750242859125,
+      "latency_runs": 200,
+      "confusion_matrix": [
+        [
+          499,
+          121
+        ],
+        [
+          79,
+          161
+        ]
+      ]
+    },
+    {
+      "model": "Word2Vec + Neural Network",
+      "macro_f1": 0.6691979352789359,
+      "accuracy": 0.7116279069767442,
+      "size_mb": 3.640599,
+      "latency_mean_ms": 0.15455849876161665,
+      "latency_p95_ms": 0.25178494397550816,
+      "latency_runs": 200,
+      "confusion_matrix": [
+        [
+          460,
+          160
+        ],
+        [
+          88,
+          152
+        ]
+      ]
+    },
+    {
+      "model": "BERT FP32",
+      "macro_f1": 0.7199992186024705,
+      "accuracy": 0.7674418604651163,
+      "size_mb": 18.494587,
+      "latency_mean_ms": 1.5766964992508292,
+      "latency_p95_ms": 2.020820014877245,
+      "latency_runs": 200,
+      "confusion_matrix": [
+        [
+          507,
+          113
+        ],
+        [
+          87,
+          153
+        ]
+      ]
+    },
+    {
+      "model": "BERT INT8",
+      "macro_f1": 0.7210772929144766,
+      "accuracy": 0.7686046511627908,
+      "size_mb": 17.287845,
+      "latency_mean_ms": 3.0885595007566735,
+      "latency_p95_ms": 3.6927599401678886,
+      "latency_runs": 200,
+      "confusion_matrix": [
+        [
+          508,
+          112
+        ],
+        [
+          87,
+          153
+        ]
+      ]
+    }
+  ],
+  "rule_macro_f1": 0.5727996141789246,
+  "failures": [
+    {
+      "text": "@user @user @user I got in a pretty deep debate with my friend and she told me that latinos for Trump and blacks for Trump were paid supporters \ud83d\ude02 then I said you mean antifa are paid domestic terrorist and she said No they are  anti-fascist then I said they are the fascist are you kidding me?! ",
+      "actual": 0,
+      "predicted": 1,
+      "offensive_probability": 0.8535676002502441
+    },
+    {
+      "text": "#RAP is a form of ART! Used to express yourself freely. It does not gv the green light or excuse the behavior of acting like an animal! She is not in the streets of the BX where violence is a way of living. Elevate yourself boo and get on @user level for longevity! #QUEEN\ud83d\udc51 ",
+      "actual": 0,
+      "predicted": 1,
+      "offensive_probability": 0.7589491009712219
+    },
+    {
+      "text": "#Kavanaugh is a disciple of Anthony Kennedy, who \ud83c\udf81ed liberals w/3 unconstitutional opinions! He's Trump's con to con conservatives to \ud83e\udd14ing #SCOTUS is moving right! Were @user smart, they'd do everything to get BK the \ud83c\udfc1. But they won't! Idiots! #TuesdayThoughts ",
+      "actual": 1,
+      "predicted": 0,
+      "offensive_probability": 0.46499115228652954
+    },
+    {
+      "text": "#Nintendo #AnimalCrossing #SmashBrosUltimate  a little late... But she is just so adorable! I do love Isabelle ",
+      "actual": 0,
+      "predicted": 1,
+      "offensive_probability": 0.6986393332481384
+    },
+    {
+      "text": "#BeckyLynch is beautiful one of the few women in wrestling that absolutely need no work done at all. She's absolutely beautiful just the way she is. Doesn't need giant boobs or a fake booty. @user is just simply amazing #HIAC ",
+      "actual": 0,
+      "predicted": 1,
+      "offensive_probability": 0.5378257036209106
+    },
+    {
+      "text": "#kznlt Enjouji really is the prototype of my character brand, he is nothing but things that I love all rolled into one horrible package and fed directly into baby me's subconscious. ",
+      "actual": 0,
+      "predicted": 1,
+      "offensive_probability": 0.5622366070747375
+    },
+    {
+      "text": "#EmmyAwards2018 - Ratings tank as expected.  Who can possibly stand to watch so many liberals in one place at one time. ",
+      "actual": 1,
+      "predicted": 0,
+      "offensive_probability": 0.19435742497444153
+    },
+    {
+      "text": "#HIAC: Why is it this match too with Becky vs Charlotte kinda sucky so far? They are taking shots back and forth and stumbling around like a drunk version of Final Fantasy or something. ",
+      "actual": 0,
+      "predicted": 1,
+      "offensive_probability": 0.8922461867332458
+    },
+    {
+      "text": "#ICYMI - Liberals' Favorite Myth That Obama Was a Law Professor Is Now Destroyed?! ",
+      "actual": 1,
+      "predicted": 0,
+      "offensive_probability": 0.24594585597515106
+    },
+    {
+      "text": "@user Gun control? I'm wondering who was in control of all those bodies that got suicided because of you. You need to be controlled.  24/7/365 #GITMO THE PAIN IS COMING. #MAGA #QAnon #Benghazi  Hope they televise your demise. ",
+      "actual": 0,
+      "predicted": 1,
+      "offensive_probability": 0.6059479117393494
+    }
+  ],
+  "int8_budget_ms": 50,
+  "int8_budget_passed": true
+}
