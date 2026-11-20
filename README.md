@@ -3,6 +3,8 @@
 
 [Download trained model files](https://drive.google.com/file/d/1-FxBENX8aNY7OuSwGbwEQcohbJdyx2W4/view?usp=sharing)
 
+- Demo video: VIDEO_LINKINI_BURAYA_YAPISTIR
+
 SWE015, Use Case 4. Ahmet Cihan Aycan, student ID 220911804.
 
 An English chat moderation application with four independently evaluated inference paths:
