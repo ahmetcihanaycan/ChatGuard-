@@ -3,7 +3,7 @@
 
 [Download trained model files](https://drive.google.com/file/d/1-FxBENX8aNY7OuSwGbwEQcohbJdyx2W4/view?usp=sharing)
 
-- Demo video: VIDEO_LINKINI_BURAYA_YAPISTIR
+- Demo video: https://youtu.be/Axn-deuQpC0
 
 SWE015, Use Case 4. Ahmet Cihan Aycan, student ID 220911804.
 
